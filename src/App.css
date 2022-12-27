@@ -1,0 +1,47 @@
+body{
+  background-color: #282c34;
+}
+
+.Pokedex {
+  background-color: red;
+  width: 90vmin;
+  height: 60vmin;
+  text-align: center;
+  display: grid;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.Pokeimage {
+  height: 40vmin;
+  width: 40vmin;
+  pointer-events: none;
+}
+
+
+
+.Cuadro-Imagen {
+  background-color: #282c34;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Info {
+  height: 40vmin;
+  width: 40vmin;
+  pointer-events: none;
+  background-color: aliceblue;
+  text-align: left;
+  padding: 10px;
+}
